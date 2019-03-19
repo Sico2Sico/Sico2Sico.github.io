@@ -7,13 +7,17 @@
   
   <title>Sico2Sico</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="个人资料 吴德志  男 1990年 本科工学学位 电子信息工程 工作年限  4年 应聘职位  iOS开发工程师  联系电话  17371818266 工作邮箱   wudezhi2014@outlook.com CSDN博客 http://blog.csdn.net/sico2sico 个人博客   https://www.sico2sico.cn GitHub     https://githu">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Sico2Sico">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/03/19/个人简历/index.html">
 <meta property="og:site_name" content="Sico2Sico">
+<meta property="og:description" content="个人资料 吴德志  男 1990年 本科工学学位 电子信息工程 工作年限  4年 应聘职位  iOS开发工程师  联系电话  17371818266 工作邮箱   wudezhi2014@outlook.com CSDN博客 http://blog.csdn.net/sico2sico 个人博客   https://www.sico2sico.cn GitHub     https://githu">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-03-19T09:38:24.354Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Sico2Sico">
+<meta name="twitter:description" content="个人资料 吴德志  男 1990年 本科工学学位 电子信息工程 工作年限  4年 应聘职位  iOS开发工程师  联系电话  17371818266 工作邮箱   wudezhi2014@outlook.com CSDN博客 http://blog.csdn.net/sico2sico 个人博客   https://www.sico2sico.cn GitHub     https://githu">
   
     <link rel="alternate" href="/atom.xml" title="Sico2Sico" type="application/atom+xml">
   
@@ -60,9 +64,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-个人简历" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-个人简历" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/03/19/个人简历/" class="article-date">
   <time datetime="2019-03-19T09:22:47.409Z" itemprop="datePublished">2019-03-19</time>
@@ -222,52 +224,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-视图矩阵" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/03/18/视图矩阵/" class="article-date">
-  <time datetime="2019-03-17T23:47:40.000Z" itemprop="datePublished">2019-03-18</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/03/18/视图矩阵/">视图矩阵</a>
-    </h1>
+    <a href="/2019/03/18/视图矩阵/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">视图矩阵</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <ul>
-<li><h4 id="2D-3D视图矩阵切换"><a href="#2D-3D视图矩阵切换" class="headerlink" title="2D 3D视图矩阵切换"></a>2D 3D视图矩阵切换</h4></li>
-</ul>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> Camera :: SwitchTo3D()&#123;</span><br><span class="line">glMatrixMode(GL_PROJECTION);</span><br><span class="line">glLoadIdentity();</span><br><span class="line">gluPerspective(<span class="number">50.0f</span>,width/height,<span class="number">0.1f</span>, <span class="number">1000.0f</span>);</span><br><span class="line">glMatrixModel(GL_MODEVIEW);</span><br><span class="line">glLoadIdentity();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">void</span> Camera :: SwitchTo2D()&#123;</span><br><span class="line">glMatrixMode(GL_PROJECTION);</span><br><span class="line">glLoadIdentity();</span><br><span class="line">gluOrtho2D(-width/<span class="number">2</span>, width/<span class="number">2</span>,-height/<span class="number">2</span>, height/<span class="number">2</span>);</span><br><span class="line">glMatrixModel(GL_MODEVIEW);</span><br><span class="line">glLoadIdentity();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/03/18/视图矩阵/" data-id="cjtfl7byt0001sz3fclvfjdkp" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/OpenGL-ES/">OpenGL ES</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
